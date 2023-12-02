@@ -20,7 +20,7 @@ brandLogoPath=https://go.acm.illinois.edu/static/img/white-banner.svg # path to 
 brandOrgHome=https://acm.illinois.edu # main home page
 brandStatusURL=https://status.acm.illinois.edu # Status page
 brandCopyrightOwner=ACM @ UIUC # Corporation Name
-brandDomainHint=devksingh.com # Azure AD Domain Hint
+brandDomainHint=acm.illinois.edu # Azure AD Domain Hint (optional, not needed for ACM deployments)
 DB_FILE=/usr/src/app/db.sqlite3 # where the DB of links is.
 GROUPS_PERMITTED=ACM Link Shortener Admins, ACM Exec # Groups that can access the link shortener
 ```
