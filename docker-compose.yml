@@ -1,6 +1,7 @@
 version: '3'
 services:
   shorten:
+    image: dev_linker_image:test1
     build: .
     restart: on-failure
     environment:
@@ -15,3 +16,5 @@ services:
       - ./config.js:/data/config.js
       - ./db.sqlite3:/data/db.sqlite3
       - ./sessions.sqlite3:/data/sessions.sqlite3
+    env_file:
+      - .env
