@@ -1,5 +1,8 @@
 # Linkry - Link Shortener
 
+# DEPRECATED
+This functionality is now built into [core.acm](https://core.acm.illinois.edu) and thus this repository is no longer maintained.
+
 Linkry is an internal tool for shortening links and reducing link rot by redirecting users to an origin site from an organization-controlled link.
 
 ## Installation
